@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Glasses, Spray, Drop, Check } from "lucide-react";
+import { Glasses, CircleCheck, Settings, Check } from "lucide-react";
 import ImageSlider from "@/components/ImageSlider";
 import TestimonialSection from "@/components/TestimonialSection";
 import FeatureCard from "@/components/FeatureCard";
@@ -57,12 +57,12 @@ const Index = () => {
               description="Usuwa wszystkie zabrudzenia, tłuszcz i odciski palców w kilka sekund"
             />
             <FeatureCard
-              icon={<Spray className="h-8 w-8 text-blue-600" />}
+              icon={<Settings className="h-8 w-8 text-blue-600" />}
               title="Bezpieczna formuła"
               description="Delikatna dla wszystkich typów szkieł i powłok antyrefleksyjnych"
             />
             <FeatureCard
-              icon={<Drop className="h-8 w-8 text-blue-600" />}
+              icon={<CircleCheck className="h-8 w-8 text-blue-600" />}
               title="Antybakteryjne działanie"
               description="Eliminuje 99,9% bakterii i zarazków z powierzchni okularów"
             />
