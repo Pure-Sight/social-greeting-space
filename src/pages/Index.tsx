@@ -1,6 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { Glasses, CircleCheck, Settings, Check } from "lucide-react";
+import { Link } from "react-router-dom";
 import ImageSlider from "@/components/ImageSlider";
 import TestimonialSection from "@/components/TestimonialSection";
 import FeatureCard from "@/components/FeatureCard";
@@ -23,9 +23,11 @@ const Index = () => {
                 Rewolucyjny sposób na czyszczenie okularów. Usuwa zabrudzenia, odciski palców i bakterie w kilka sekund.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  Kup teraz
-                </Button>
+                <Link to="/contact">
+                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                    Kup teraz
+                  </Button>
+                </Link>
                 <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
                   Dowiedz się więcej
                 </Button>
@@ -172,9 +174,11 @@ const Index = () => {
           <p className="text-xl mb-8 text-blue-100 max-w-3xl mx-auto">
             Zamów OptyClear już dziś i ciesz się idealnie czystymi okularami każdego dnia. 30-dniowa gwarancja zwrotu pieniędzy.
           </p>
-          <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
-            Zamów teraz
-          </Button>
+          <Link to="/contact">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+              Zamów teraz
+            </Button>
+          </Link>
         </div>
       </section>
 
