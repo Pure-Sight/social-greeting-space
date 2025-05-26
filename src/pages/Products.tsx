@@ -55,10 +55,9 @@ const Products = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">Stacja do czyszczenia</h3>
               <p className="text-gray-600 mb-4">
-                Profesjonalna stacja czyszcząca do okularów z ultradźwiękami
+                Profesjonalna stacja czyszcząca do okularów i ekranów telefonów
               </p>
-              <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">399 zł</span>
+              <div className="flex justify-end">
                 <Link to="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     Zamów teraz
@@ -80,8 +79,7 @@ const Products = () => {
               <p className="text-gray-600 mb-4">
                 Specjalny płyn do czyszczenia okularów, bezpieczny dla wszystkich rodzajów soczewek
               </p>
-              <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">29 zł</span>
+              <div className="flex justify-end">
                 <Link to="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     Zamów teraz
@@ -103,8 +101,7 @@ const Products = () => {
               <p className="text-gray-600 mb-4">
                 Jednorazowe chusteczki do czyszczenia okularów, idealne do codziennego użytku
               </p>
-              <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">19 zł</span>
+              <div className="flex justify-end">
                 <Link to="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     Zamów teraz
