@@ -95,7 +95,13 @@ const Contact = () => {
       {/* Header */}
       <header className="py-6 px-4 border-b">
         <div className="container mx-auto max-w-6xl">
-          <h1 className="text-2xl font-bold text-blue-600">Pure Sight</h1>
+          <div className="flex items-center gap-3">
+            {/* Logo placeholder */}
+            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+              <div className="w-6 h-6 bg-blue-600 rounded"></div>
+            </div>
+            <h1 className="text-2xl font-bold text-blue-600">Pure Sight</h1>
+          </div>
         </div>
       </header>
 

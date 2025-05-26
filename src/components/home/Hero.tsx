@@ -8,9 +8,6 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/2">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-              Pure Sight
-            </h1>
             <p className="text-xl md:text-2xl font-medium mb-6 text-blue-600">
               Profesjonalna stacja czyszcząca do okularów
             </p>
