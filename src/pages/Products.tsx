@@ -2,6 +2,13 @@
 import Footer from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ChevronDown } from "lucide-react";
 
 const Products = () => {
   return (
@@ -20,9 +27,29 @@ const Products = () => {
               </Link>
             </div>
             <nav className="flex items-center gap-6">
-              <Link to="/products" className="text-gray-700 hover:text-blue-600 font-medium">
-                Produkty
-              </Link>
+              <DropdownMenu>
+                <DropdownMenuTrigger className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
+                  Produkty
+                  <ChevronDown className="h-4 w-4" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="bg-white border shadow-md">
+                  <DropdownMenuItem asChild>
+                    <Link to="/products" className="cursor-pointer">
+                      Stacja do czyszczenia
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/products" className="cursor-pointer">
+                      Płyn do czyszczenia
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/products" className="cursor-pointer">
+                      Chusteczki do czyszczenia
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 Kontakt
               </Link>
