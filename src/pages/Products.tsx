@@ -2,13 +2,6 @@
 import Footer from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { ChevronDown } from "lucide-react";
 
 const Products = () => {
   return (
@@ -27,29 +20,9 @@ const Products = () => {
               </Link>
             </div>
             <nav className="flex items-center gap-6">
-              <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
-                  Produkty
-                  <ChevronDown className="h-4 w-4" />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent className="bg-white border shadow-md">
-                  <DropdownMenuItem asChild>
-                    <Link to="/products" className="cursor-pointer">
-                      Stacja do czyszczenia
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link to="/products" className="cursor-pointer">
-                      Płyn do czyszczenia
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link to="/products" className="cursor-pointer">
-                      Chusteczki do czyszczenia
-                    </Link>
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
+              <Link to="/products" className="text-gray-700 hover:text-blue-600 font-medium">
+                Produkty
+              </Link>
               <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
                 Kontakt
               </Link>
@@ -66,26 +39,26 @@ const Products = () => {
               Nasze Produkty
             </h1>
             <p className="text-lg text-gray-600">
-              Odkryj naszą gamę profesjonalnych stacji czyszczących do okularów
+              Odkryj naszą gamę profesjonalnych produktów do czyszczenia okularów
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Product 1 */}
+            {/* Product 1 - Stacja do czyszczenia */}
             <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="bg-gray-100 rounded-lg p-4 mb-4">
                 <img
                   src="/placeholder.svg"
-                  alt="Pure Sight Basic"
+                  alt="Stacja do czyszczenia"
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Pure Sight Basic</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Stacja do czyszczenia</h3>
               <p className="text-gray-600 mb-4">
-                Podstawowa stacja czyszcząca idealna do domowego użytku
+                Profesjonalna stacja czyszcząca do okularów z ultradźwiękami
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">299 zł</span>
+                <span className="text-2xl font-bold text-blue-600">399 zł</span>
                 <Link to="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     Zamów teraz
@@ -94,21 +67,21 @@ const Products = () => {
               </div>
             </div>
 
-            {/* Product 2 */}
+            {/* Product 2 - Płyn do czyszczenia */}
             <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="bg-gray-100 rounded-lg p-4 mb-4">
                 <img
                   src="/placeholder.svg"
-                  alt="Pure Sight Pro"
+                  alt="Płyn do czyszczenia"
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Pure Sight Pro</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Płyn do czyszczenia</h3>
               <p className="text-gray-600 mb-4">
-                Zaawansowana stacja z dodatkowymi funkcjami dla profesjonalistów
+                Specjalny płyn do czyszczenia okularów, bezpieczny dla wszystkich rodzajów soczewek
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">599 zł</span>
+                <span className="text-2xl font-bold text-blue-600">29 zł</span>
                 <Link to="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     Zamów teraz
@@ -117,21 +90,21 @@ const Products = () => {
               </div>
             </div>
 
-            {/* Product 3 */}
+            {/* Product 3 - Chusteczki do czyszczenia */}
             <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="bg-gray-100 rounded-lg p-4 mb-4">
                 <img
                   src="/placeholder.svg"
-                  alt="Pure Sight Enterprise"
+                  alt="Chusteczki do czyszczenia"
                   className="w-full h-48 object-cover rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Pure Sight Enterprise</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Chusteczki do czyszczenia</h3>
               <p className="text-gray-600 mb-4">
-                Przemysłowa stacja czyszcząca dla optyk i laboratoriów
+                Jednorazowe chusteczki do czyszczenia okularów, idealne do codziennego użytku
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-2xl font-bold text-blue-600">999 zł</span>
+                <span className="text-2xl font-bold text-blue-600">19 zł</span>
                 <Link to="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700">
                     Zamów teraz
