@@ -45,7 +45,7 @@ const Products = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Product 1 - Stacja do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
               <div className="bg-gray-100 rounded-lg p-4 mb-4">
                 <img
                   src="/placeholder.svg"
@@ -67,7 +67,7 @@ const Products = () => {
             </div>
 
             {/* Product 2 - Płyn do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
               <div className="bg-gray-100 rounded-lg p-4 mb-4">
                 <img
                   src="/placeholder.svg"
@@ -89,7 +89,7 @@ const Products = () => {
             </div>
 
             {/* Product 3 - Chusteczki do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
               <div className="bg-gray-100 rounded-lg p-4 mb-4">
                 <img
                   src="/placeholder.svg"
