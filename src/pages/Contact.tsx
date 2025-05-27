@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -142,6 +143,7 @@ const Contact = () => {
                   onChange={handleInputChange}
                   className={`mt-2 h-12 text-lg ${errors.email ? 'border-red-500 focus-visible:ring-red-500' : ''}`}
                   placeholder="twoj@email.com"
+                  title="Wprowadź prawidłowy adres email"
                   required
                 />
                 {errors.email && (
@@ -161,6 +163,8 @@ const Contact = () => {
                   onChange={handleInputChange}
                   className={`mt-2 h-12 text-lg ${errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}`}
                   placeholder="+48 123 456 789"
+                  title="Wprowadź prawidłowy numer telefonu"
+                  pattern="(\+48\s?)?[0-9]{3}[\s-]?[0-9]{3}[\s-]?[0-9]{3}"
                   required
                 />
                 {errors.phone && (
