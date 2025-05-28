@@ -11,18 +11,18 @@ const HowItWorks = () => {
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-blue-600">1</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Umieść okulary lub telefon</h3>
+            <h3 className="text-xl font-semibold mb-3">Zwilż chusteczkę płynem</h3>
             <p className="text-gray-600">
-              Umieść okulary lub telefon w stacji czyszczącej Pure Sight
+              Umieść chusteczkę pod dyszą - stacja automatycznie nawilży ją płynem czyszczącym
             </p>
           </div>
           <div className="p-6">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-blue-600">2</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Naciśnij przycisk</h3>
+            <h3 className="text-xl font-semibold mb-3">Wytrzyj okulary lub ekran</h3>
             <p className="text-gray-600">
-              Uruchom proces czyszczenia jednym przyciskiem
+              Usuń zabrudzenia, tłuszcz i odciski palców
             </p>
           </div>
           <div className="p-6">
@@ -31,7 +31,7 @@ const HowItWorks = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Gotowe!</h3>
             <p className="text-gray-600">
-              Po 30 sekundach Twoje okulary i telefon są idealnie czyste
+              Ciesz się czystymi okularami bądź ekranem w kilka sekund
             </p>
           </div>
         </div>
