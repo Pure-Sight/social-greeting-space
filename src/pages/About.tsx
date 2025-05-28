@@ -14,7 +14,7 @@ const About = () => {
               O nas
             </h1>
             <p className="text-lg text-gray-600">
-              Poznaj historię i misję OptyClear
+              Poznaj historię i misję Pure Sight
             </p>
           </div>
 
@@ -23,7 +23,7 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-semibold mb-4 text-gray-900">Nasza misja</h2>
                 <p className="text-gray-600 mb-6">
-                  OptyClear to polska firma specjalizująca się w produkcji profesjonalnych stacji czyszczących do okularów. 
+                  Pure Sight to polska firma specjalizująca się w produkcji profesjonalnych stacji czyszczących do okularów. 
                   Naszą misją jest dostarczanie najwyższej jakości rozwiązań, które zapewniają krystalicznie czyste okulary 
                   w każdych warunkach.
                 </p>
@@ -56,7 +56,7 @@ const About = () => {
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-900">Dlaczego OptyClear?</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-gray-900">Dlaczego Pure Sight?</h2>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <h3 className="text-lg font-semibold mb-2 text-gray-900">10+ lat doświadczenia</h3>

@@ -13,7 +13,7 @@ import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 
 // Update document title
-document.title = "OptyClear - Profesjonalna stacja czyszcząca do okularów";
+document.title = "Pure Sight - Profesjonalna stacja czyszcząca do okularów";
 
 const queryClient = new QueryClient();
 

@@ -1,4 +1,3 @@
-
 import Footer from "@/components/layout/Footer";
 import ContactHeader from "@/components/contact/ContactHeader";
 
@@ -23,10 +22,10 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-semibold mb-4 text-gray-900">1. Postanowienia ogólne</h2>
               <p className="text-gray-600 mb-4">
                 Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych 
-                przekazanych przez Użytkowników w związku z korzystaniem z usług świadczonych przez OptyClear.
+                przekazanych przez Użytkowników w związku z korzystaniem z usług świadczonych przez Pure Sight.
               </p>
               <p className="text-gray-600">
-                Administratorem danych osobowych jest OptyClear sp. z o.o. z siedzibą w Warszawie.
+                Administratorem danych osobowych jest Pure Sight sp. z o.o. z siedzibą w Warszawie.
               </p>
             </div>
 
@@ -89,7 +88,7 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-semibold mb-4 text-gray-900">7. Kontakt</h2>
               <p className="text-gray-600">
                 W sprawach dotyczących ochrony danych osobowych prosimy o kontakt: 
-                <strong> kontakt@optyclear.pl</strong>
+                <strong> kontakt@puresight.online</strong>
               </p>
             </div>
           </div>
