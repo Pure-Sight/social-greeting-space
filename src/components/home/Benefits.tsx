@@ -6,8 +6,8 @@ const Benefits = () => {
     "Oszczędność czasu - czyszczenie w kilka sekund",
     "Bezpieczne dla wszystkich typów szkieł i oprawek",
     "Eliminuje 99,9% bakterii i zarazków",
-    "Delikatne dla powłok antyrefleksyjnych",
-    "Kompaktowa konstrukcja - idealna do domu i biura",
+    "Możliwość działania bez dostępu do sieci elektrycznej",
+    "Kompaktowa konstrukcja - idealna do biura bądź gabinetu",
     "Ekonomiczny w użyciu - jeden wkład wystarcza na 200 czyszczeń"
   ];
 
