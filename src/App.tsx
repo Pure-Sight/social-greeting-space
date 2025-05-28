@@ -17,12 +17,15 @@ document.title = "Pure Sight - Profesjonalna stacja czyszcząca do okularów";
 
 const queryClient = new QueryClient();
 
+// Get base name for GitHub Pages
+const basename = import.meta.env.PROD ? '/social-greeting-space' : '';
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/products" element={<Products />} />
