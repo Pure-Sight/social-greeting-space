@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/2">
             <p className="text-xl md:text-2xl font-medium mb-6 text-blue-600">
-              Profesjonalna stacja czyszcząca do okularów
+              Profesjonalna stacja czyszcząca do okularów i wyświetlaczy telefonów
             </p>
             <p className="text-lg mb-8 text-gray-700">
-              Rewolucyjny sposób na czyszczenie okularów. Usuwa zabrudzenia, odciski palców i bakterie w kilka sekund.
+              Rewolucyjny sposób na czyszczenie okularów i ekranów telefonów. Usuwa zabrudzenia, odciski palców i bakterie w kilka sekund. Świetnie sprawdzi się w Twoim biurze, restauracji czy miejscu użyteczności publicznej.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact">
@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="bg-gray-100 rounded-xl p-4">
               <img
                 src="/placeholder.svg"
-                alt="OptyClear - stacja czyszcząca do okularów"
+                alt="Pure Sight - stacja czyszcząca do okularów i wyświetlaczy telefonów"
                 className="w-full h-auto rounded-lg"
               />
             </div>

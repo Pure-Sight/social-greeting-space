@@ -11,9 +11,9 @@ const HowItWorks = () => {
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-blue-600">1</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Umieść okulary</h3>
+            <h3 className="text-xl font-semibold mb-3">Umieść okulary lub telefon</h3>
             <p className="text-gray-600">
-              Umieść okulary w stacji czyszczącej OptyClear
+              Umieść okulary lub telefon w stacji czyszczącej Pure Sight
             </p>
           </div>
           <div className="p-6">
@@ -31,7 +31,7 @@ const HowItWorks = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Gotowe!</h3>
             <p className="text-gray-600">
-              Po 30 sekundach Twoje okulary są idealnie czyste
+              Po 30 sekundach Twoje okulary i telefon są idealnie czyste
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Pure Sight</h3>
             <p className="text-gray-400">
-              Profesjonalna stacja czyszcząca do okularów
+              Profesjonalna stacja czyszcząca do okularów i wyświetlaczy telefonów
             </p>
           </div>
           <div>
