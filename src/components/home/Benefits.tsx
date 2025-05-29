@@ -1,4 +1,3 @@
-
 import { Check } from "lucide-react";
 
 const Benefits = () => {
@@ -7,8 +6,7 @@ const Benefits = () => {
     "Bezpieczne dla wszystkich typów szkieł i oprawek",
     "Eliminuje 99,9% bakterii i zarazków",
     "Możliwość działania bez dostępu do sieci elektrycznej",
-    "Kompaktowa konstrukcja - idealna do biura bądź gabinetu",
-    "Ekonomiczny w użyciu - jeden wkład wystarcza na 200 czyszczeń"
+    "Kompaktowa konstrukcja - idealna do biura bądź gabinetu"
   ];
 
   return (
