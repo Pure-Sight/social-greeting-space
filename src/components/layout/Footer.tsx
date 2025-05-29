@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
@@ -7,7 +6,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Pure Sight</h3>
             <p className="text-gray-400">
-              Profesjonalna stacja czyszcząca do okularów i wyświetlaczy telefonów
+              Firma dostarczająca rozwiązania do czyszczenia okularów i wyświetlaczy
             </p>
           </div>
           <div>
