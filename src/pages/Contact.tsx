@@ -17,7 +17,7 @@ const Contact = () => {
               Skontaktuj się z nami
             </h1>
             <p className="text-lg text-gray-600">
-              Zainteresowany zakupem Pure Sight? Wypełnij formularz poniżej, a skontaktujemy się z Tobą w ciągu 24 godzin.
+              Zainteresowany zakupem? Wypełnij formularz poniżej, a skontaktujemy się z Tobą w ciągu 24 godzin.
             </p>
           </div>
 
