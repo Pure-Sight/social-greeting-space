@@ -122,7 +122,7 @@ const ContactForm = () => {
             value={formData.phone}
             onChange={handleInputChange}
             className={`mt-2 h-12 text-lg ${errors.phone ? 'border-red-500 focus-visible:ring-red-500' : ''}`}
-            placeholder="+48 123 456 789"
+            placeholder="+48 514 696 918"
             title="Wprowadź prawidłowy numer telefonu"
             pattern="(\+48\s?)?[0-9]{3}[\s-]?[0-9]{3}[\s-]?[0-9]{3}"
             required

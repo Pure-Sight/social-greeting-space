@@ -13,7 +13,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Kontakt</h3>
             <p className="text-gray-400">
               Email: kontakt@puresight.online<br />
-              Telefon: +48 123 456 789
+              Telefon: +48 514 696 918
             </p>
           </div>
           <div>

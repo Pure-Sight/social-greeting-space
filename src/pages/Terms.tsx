@@ -83,7 +83,7 @@ const Terms = () => {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-600">
                 <li>Instruktaż użytkowania przy dostawie</li>
-                <li>Pomoc techniczna telefoniczna: +48 123 456 789</li>
+                <li>Pomoc techniczna telefoniczna: +48 514 696 918</li>
                 <li>Okresowe przeglądy i konserwacja</li>
                 <li>Szkolenia dla personelu</li>
               </ul>
@@ -103,7 +103,7 @@ const Terms = () => {
               <h3 className="text-lg font-semibold mb-2 text-gray-900">Kontakt w sprawach regulaminu</h3>
               <p className="text-gray-600">
                 Email: <strong>prawne@puresight.online</strong><br />
-                Telefon: <strong>+48 123 456 789</strong>
+                Telefon: <strong>+48 514 696 918</strong>
               </p>
             </div>
           </div>

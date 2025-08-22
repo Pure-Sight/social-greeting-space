@@ -7,7 +7,7 @@ const ContactInfo = () => {
       </h3>
       <div className="space-y-2 text-gray-600">
         <p>Email: kontakt@puresight.pl</p>
-        <p>Telefon: +48 123 456 789</p>
+        <p>Telefon: +48 514 696 918</p>
         <p>Czas odpowiedzi: do 24 godzin</p>
       </div>
     </div>
