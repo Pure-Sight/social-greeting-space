@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="bg-gray-100 rounded-xl p-4">
               <img
-                src="/placeholder.svg"
+                src="/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png"
                 alt="Pure Sight - stacja czyszcząca do okularów i wyświetlaczy telefonów"
                 className="w-full h-auto rounded-lg"
               />
