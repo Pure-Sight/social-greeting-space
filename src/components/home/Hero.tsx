@@ -1,30 +1,33 @@
 
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { removeBackground, loadImageFromUrl } from "@/lib/background-removal";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Hero = () => {
-  const [processedImageUrl, setProcessedImageUrl] = useState<string | null>(null);
-  const [isProcessing, setIsProcessing] = useState(false);
-
-  useEffect(() => {
-    const processHeroImage = async () => {
-      try {
-        setIsProcessing(true);
-        const imageElement = await loadImageFromUrl('/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png');
-        const processedBlob = await removeBackground(imageElement);
-        const processedUrl = URL.createObjectURL(processedBlob);
-        setProcessedImageUrl(processedUrl);
-      } catch (error) {
-        console.error('Error processing hero image:', error);
-      } finally {
-        setIsProcessing(false);
-      }
-    };
-
-    processHeroImage();
-  }, []);
+  const images = [
+    {
+      src: "/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png",
+      alt: "Pure Sight - stacja czyszcząca do okularów i wyświetlaczy telefonów"
+    },
+    {
+      src: "/lovable-uploads/fa7ff6ac-7d85-4aa1-8c4a-02b6a2f06369.png",
+      alt: "Czyszczenie ekranu telefonu chusteczką"
+    },
+    {
+      src: "/lovable-uploads/31afeaa8-e959-420d-8372-19ba3e5e5cf3.png",
+      alt: "Korzystanie ze stacji czyszczącej"
+    },
+    {
+      src: "/lovable-uploads/6339cd6a-e202-4d69-ad59-bfdfae3475e2.png",
+      alt: "Pobieranie chusteczki ze stacji"
+    }
+  ];
   return (
     <section className="py-16 md:py-24 px-4">
       <div className="container mx-auto max-w-6xl">
@@ -48,16 +51,24 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:w-1/2">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 flex items-center justify-center">
-              {isProcessing ? (
-                <div className="text-blue-600">Przetwarzanie zdjęcia...</div>
-              ) : (
-                <img
-                  src={processedImageUrl || '/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png'}
-                  alt="Pure Sight - stacja czyszcząca do okularów i wyświetlaczy telefonów"
-                  className="w-full h-auto rounded-lg"
-                />
-              )}
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-4">
+              <Carousel className="w-full">
+                <CarouselContent>
+                  {images.map((image, index) => (
+                    <CarouselItem key={index}>
+                      <div className="p-1">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className="w-full h-auto rounded-lg object-cover"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
             </div>
           </div>
         </div>
