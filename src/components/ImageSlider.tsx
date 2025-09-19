@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 const ImageSlider = () => {
   const images = [
@@ -15,7 +16,14 @@ const ImageSlider = () => {
   ];
 
   return (
-    <Carousel className="mx-auto max-w-3xl">
+    <Carousel 
+      className="mx-auto max-w-3xl"
+      plugins={[
+        Autoplay({
+          delay: 3000,
+        }),
+      ]}
+    >
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem key={index}>
