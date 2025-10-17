@@ -67,16 +67,16 @@ const Products = () => {
             </div>
 
             {/* Product 2 - Płyn do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
-              <div className="bg-gray-100 rounded-lg p-4 mb-4">
+            <div className="bg-white border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
+              <div className="bg-gray-100 rounded-lg p-6 mb-6">
                 <img
                   src="/placeholder.svg"
                   alt="Płyn do czyszczenia"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-64 object-cover rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Płyn do czyszczenia</h3>
-              <p className="text-gray-600 mb-4 flex-grow">
+              <h3 className="text-2xl font-semibold mb-3 text-gray-900">Płyn do czyszczenia</h3>
+              <p className="text-gray-600 mb-6 flex-grow text-base">
                 Specjalny płyn do czyszczenia okularów, bezpieczny dla wszystkich rodzajów soczewek
               </p>
               <div className="flex justify-center">
@@ -89,16 +89,16 @@ const Products = () => {
             </div>
 
             {/* Product 3 - Chusteczki do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
-              <div className="bg-gray-100 rounded-lg p-4 mb-4">
+            <div className="bg-white border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
+              <div className="bg-gray-100 rounded-lg p-6 mb-6">
                 <img
                   src="/placeholder.svg"
                   alt="Chusteczki do czyszczenia"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-64 object-cover rounded-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Chusteczki do czyszczenia</h3>
-              <p className="text-gray-600 mb-4 flex-grow">
+              <h3 className="text-2xl font-semibold mb-3 text-gray-900">Chusteczki do czyszczenia</h3>
+              <p className="text-gray-600 mb-6 flex-grow text-base">
                 Jednorazowe chusteczki do czyszczenia okularów, idealne do codziennego użytku
               </p>
               <div className="flex justify-center">
