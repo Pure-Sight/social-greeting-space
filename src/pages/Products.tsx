@@ -43,18 +43,18 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 md:grid-rows-2">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Product 1 - Stacja do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center md:row-span-2">
-              <div className="bg-gray-100 rounded-lg p-4 mb-4 flex-grow flex items-center justify-center">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
+              <div className="bg-gray-100 rounded-lg p-4 mb-4 h-64 flex items-center justify-center">
                 <img
                   src="/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png"
                   alt="Stacja do czyszczenia"
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">Stacja do czyszczenia</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 flex-grow">
                 Profesjonalna stacja czyszcząca do okularów i ekranów telefonów
               </p>
               <div className="flex justify-center">
@@ -67,16 +67,16 @@ const Products = () => {
             </div>
 
             {/* Product 2 - Płyn do czyszczenia */}
-            <div className="bg-white border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
-              <div className="bg-gray-100 rounded-lg p-6 mb-6">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
+              <div className="bg-gray-100 rounded-lg p-4 mb-4 h-64 flex items-center justify-center">
                 <img
                   src="/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png"
                   alt="Płyn do czyszczenia"
-                  className="w-full h-64 object-cover rounded-lg"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-900">Płyn do czyszczenia</h3>
-              <p className="text-gray-600 mb-6 flex-grow text-base">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Płyn do czyszczenia</h3>
+              <p className="text-gray-600 mb-4 flex-grow">
                 Specjalny płyn do czyszczenia okularów, bezpieczny dla wszystkich rodzajów soczewek
               </p>
               <div className="flex justify-center">
@@ -89,16 +89,16 @@ const Products = () => {
             </div>
 
             {/* Product 3 - Chusteczki do czyszczenia */}
-            <div className="bg-white border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
-              <div className="bg-gray-100 rounded-lg p-6 mb-6">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
+              <div className="bg-gray-100 rounded-lg p-4 mb-4 h-64 flex items-center justify-center">
                 <img
                   src="/placeholder.svg"
                   alt="Chusteczki do czyszczenia"
-                  className="w-full h-64 object-cover rounded-lg"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-900">Chusteczki do czyszczenia</h3>
-              <p className="text-gray-600 mb-6 flex-grow text-base">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Chusteczki do czyszczenia</h3>
+              <p className="text-gray-600 mb-4 flex-grow">
                 Jednorazowe chusteczki do czyszczenia okularów, idealne do codziennego użytku
               </p>
               <div className="flex justify-center">
