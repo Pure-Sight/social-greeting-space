@@ -48,7 +48,7 @@ const Products = () => {
             <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center md:row-span-2">
               <div className="bg-gray-100 rounded-lg p-4 mb-4 flex-grow flex items-center justify-center">
                 <img
-                  src="/placeholder.svg"
+                  src="/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png"
                   alt="Stacja do czyszczenia"
                   className="w-full h-full object-cover rounded-lg"
                 />
