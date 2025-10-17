@@ -70,7 +70,7 @@ const Products = () => {
             <div className="bg-white border rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
               <div className="bg-gray-100 rounded-lg p-6 mb-6">
                 <img
-                  src="/placeholder.svg"
+                  src="/lovable-uploads/fcd68704-79e6-4e62-b5bf-1756c32ef9d9.png"
                   alt="Płyn do czyszczenia"
                   className="w-full h-64 object-cover rounded-lg"
                 />
