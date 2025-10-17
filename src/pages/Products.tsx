@@ -43,18 +43,18 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 md:grid-rows-2">
             {/* Product 1 - Stacja do czyszczenia */}
-            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
-              <div className="bg-gray-100 rounded-lg p-4 mb-4">
+            <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center md:row-span-2">
+              <div className="bg-gray-100 rounded-lg p-4 mb-4 flex-grow flex items-center justify-center">
                 <img
                   src="/placeholder.svg"
                   alt="Stacja do czyszczenia"
-                  className="w-full h-48 object-cover rounded-lg"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">Stacja do czyszczenia</h3>
-              <p className="text-gray-600 mb-4 flex-grow">
+              <p className="text-gray-600 mb-4">
                 Profesjonalna stacja czyszcząca do okularów i ekranów telefonów
               </p>
               <div className="flex justify-center">
