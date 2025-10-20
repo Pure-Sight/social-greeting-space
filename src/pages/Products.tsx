@@ -43,7 +43,7 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="flex flex-col gap-8 max-w-3xl mx-auto">
             {/* Product 1 - Stacja do czyszczenia */}
             <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col text-center">
               <div className="bg-gray-100 rounded-lg p-4 mb-4 h-64 flex items-center justify-center">
